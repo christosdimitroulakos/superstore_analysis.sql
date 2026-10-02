@@ -1,24 +1,23 @@
-Ανάλυση Πωλήσεων & Κερδοφορίας E-Commerce (SQL)
+E-Commerce Sales & Profitability Analysis (SQL)
 
-Περιγραφή Project
-Σε αυτό το project ανέλυσα τα δεδομένα πωλήσεων ενός καταστήματος (Superstore) χρησιμοποιώντας SQL. Ο στόχος είναι να βρούμε τα προϊόντα που φέρνουν τα περισσότερα έσοδα, αλλά και τις κατηγορίες στις οποίες η επιχείρηση χάνει χρήματα.
+Project Description
+In this project, I analyzed the sales data of a store (Superstore) using SQL. The goal is to find the products that generate the most revenue, as well as the categories where the business is losing money.
 
- Εργαλεία
-Βάση Δεδομένων: SQL
-Εργαλεία Ανάλυσης: SQL Queries (GROUP BY, SUM, COUNT, ROUND)
-Δεδομένα: Sample Superstore Dataset (9.994 εγγραφές)
+Tools
+Database: SQL
+Analysis Tools: SQL Queries (GROUP BY, SUM, COUNT, ROUND)
+Data: Sample Superstore Dataset (9,994 records)
 
+Key Analysis Questions
 
- Βασικά Ερωτήματα Ανάλυσης
-1. Ποια είναι τα συνολικά έσοδα και τα συνολικά κέρδη της εταιρείας;
-2. Ποιες κατηγορίες προϊόντων φέρνουν τις περισσότερες πωλήσεις;
-3. Ποια είναι τα 5 δημοφιλέστερα προϊόντα σε τζίρο;
-4. Σε ποιες υποκατηγορίες προϊόντων η εταιρεία καταγράφει ζημιές;
+What is the company's total revenue and total profit?
+-Which product categories bring in the most sales?
+-What are the top 5 most popular products by revenue?
+-In which product sub-categories is the company recording losses?
 
+Key Findings
 
- Βασικά Συμπεράσματα
-Συνολική Απόδοση: Η εταιρεία σημείωσε $2.297.200,86 σε συνολικές πωλήσεις και $286.397,02 σε καθαρό κέρδος.
-Top Κατηγορίες: Η κατηγορία Technology βρίσκεται στην πρώτη θέση σε πωλήσεις $836K, ακολουθούμενη από τις Furniture $742K και Office Supplies $719K
-Top Προϊόν: Το φωτοτυπικό Canon imageCLASS 2200 έφερε τα περισσότερα έσοδα $61.600.
-Κρίσιμο Ευρημα: Υποκατηγορίες όπως τα Tables (Τραπέζια) και Bookcases (Βιβλιοθήκες) παρουσιάζουν ζημιές παρά τις υψηλές πωλήσεις, γεγονός που δείχνει ότι χρειάζεται αλλαγή στην πολιτική εκπτώσεων.
-
+-Total Performance: The company recorded $2,297,200.86 in total sales and $286,397.02 in net profit.
+-Top Categories: The Technology category ranks first in sales at $836K, followed by Furniture at $742K and Office Supplies at $719K.
+-Top Product: The Canon imageCLASS 2200 copier generated the most revenue at $61,600.
+-Critical Finding: Sub-categories such as Tables and Bookcases show losses despite high sales, indicating that a change in discount policy is needed.
