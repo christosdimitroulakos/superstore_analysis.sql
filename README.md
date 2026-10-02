@@ -3,10 +3,14 @@ E-Commerce Sales & Profitability Analysis (SQL)
 Project Description
 In this project, I analyzed the sales data of a store (Superstore) using SQL. The goal is to find the products that generate the most revenue, as well as the categories where the business is losing money.
 
+
+
 Tools
 Database: SQL
 Analysis Tools: SQL Queries (GROUP BY, SUM, COUNT, ROUND)
 Data: Sample Superstore Dataset (9,994 records)
+
+
 
 Key Analysis Questions
 
@@ -17,6 +21,8 @@ What is the company's total revenue and total profit?
 -What are the top 5 most popular products by revenue?
 
 -In which product sub-categories is the company recording losses?
+
+
 
 Key Findings
 
